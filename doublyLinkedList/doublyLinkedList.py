@@ -67,6 +67,11 @@ class DoublyLinkedList:
             node.prev = temp
             temp.next.prev = node
             temp.next = node
+            
+    def insertion_sort_dll(self):
+        if self.head is None:
+            return "Empty: cant sort empty list"
+        pass
 
 
 
